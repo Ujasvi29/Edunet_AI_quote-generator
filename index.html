@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mood AI Quote Generator</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>🧠 Mood-Based AI Quote Generator ✨</h1>
+    
+    <label for="mood">Select your mood:</label>
+    <select id="mood">
+      <option value="happy">😊 Happy</option>
+      <option value="sad">😢 Sad</option>
+      <option value="motivated">🔥 Motivated</option>
+      <option value="anxious">💭 Anxious</option>
+      <option value="dreamy">🌙 Dreamy</option>
+    </select>
+
+    <div class="quote-box">
+      <p id="quote">Pick a mood and generate your vibe quote 💫</p>
+    </div>
+    
+    <button onclick="generateQuote()">Generate Quote</button>
+    <button onclick="copyQuote()">📋 Copy</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
